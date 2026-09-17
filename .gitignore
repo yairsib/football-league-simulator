@@ -1,0 +1,31 @@
+# Build output
+backend/target/
+frontend/dist/
+frontend/node_modules/
+
+# Test artifacts
+frontend/test-results/
+frontend/playwright-report/
+frontend/blob-report/
+coverage/
+
+# TypeScript incremental state
+*.tsbuildinfo
+
+# Logs and local environment
+*.log
+.env
+.env.*
+!.env.example
+
+# IDE / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Local H2 database files
+*.mv.db
+*.trace
+*.trace.db

@@ -1,0 +1,75 @@
+{
+  "season": "2025/2026",
+  "league": "Israeli Premier League",
+  "sourceNotes": [
+    "TEMPLATE FILE — structural example only. Do not load this file directly.",
+    "Real data lives in ligat-haal-2025-2026.json.",
+    "The team and players below are EXAMPLE PLACEHOLDERS to illustrate the required shape — they are not real and must never be imported.",
+    "The loader skips any team or player whose dataSource starts with 'EXAMPLE'.",
+    "Squads and lineups should be filled from verified sources such as 365Scores, official club pages, Transfermarkt, or Israeli FA."
+  ],
+  "teams": [
+    {
+      "name": "EXAMPLE_TEAM — Template Only",
+      "displayName": "EXAMPLE_TEAM — Template Only",
+      "skillLevel": 80,
+      "morale": 5,
+      "defaultFormation": "4-3-3",
+      "dataSource": "EXAMPLE_TEMPLATE",
+      "players": [
+        {
+          "fullName": "EXAMPLE Goalkeeper (placeholder — not a real player)",
+          "position": "GK",
+          "jerseyNumber": 1,
+          "rating": 80,
+          "status": "FIT",
+          "injuryDescription": null,
+          "injuredUntilRound": null,
+          "starter": true,
+          "substitute": false,
+          "lineupOrder": 1,
+          "dataSource": "EXAMPLE_TEMPLATE"
+        },
+        {
+          "fullName": "EXAMPLE Midfielder (placeholder — not a real player)",
+          "position": "CM",
+          "jerseyNumber": 8,
+          "rating": 78,
+          "status": "FIT",
+          "injuryDescription": null,
+          "injuredUntilRound": null,
+          "starter": true,
+          "substitute": false,
+          "lineupOrder": 6,
+          "dataSource": "EXAMPLE_TEMPLATE"
+        },
+        {
+          "fullName": "EXAMPLE Substitute Forward (placeholder — not a real player)",
+          "position": "ST",
+          "jerseyNumber": 19,
+          "rating": 74,
+          "status": "FIT",
+          "injuryDescription": null,
+          "injuredUntilRound": null,
+          "starter": false,
+          "substitute": true,
+          "lineupOrder": null,
+          "dataSource": "EXAMPLE_TEMPLATE"
+        },
+        {
+          "fullName": "EXAMPLE Injured Player (placeholder — not a real player)",
+          "position": "RB",
+          "jerseyNumber": 22,
+          "rating": 70,
+          "status": "INJURED",
+          "injuryDescription": "EXAMPLE — hamstring strain (placeholder)",
+          "injuredUntilRound": 5,
+          "starter": false,
+          "substitute": false,
+          "lineupOrder": null,
+          "dataSource": "EXAMPLE_TEMPLATE"
+        }
+      ]
+    }
+  ]
+}
